@@ -1,0 +1,48 @@
+.active-status {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #151517;
+  font-style: normal;
+}
+
+.btn-to-do {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 87px;
+  height: 40px;
+  background-color: rgba(8, 30, 52, 0.42);
+  border-radius: 50px;
+  border: none;
+}
+.btn-to-do p {
+  font-weight: 700;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  width: 39px;
+  height: 18px;
+}
+
+.img {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  border-radius: 100px;
+  padding: 14px;
+  gap: 8px; 
+  position: absolute;
+width: 52px;
+height: 52px;
+top: 235px;
+background: linear-gradient(0deg, #081E34, #081E34), #F0F0F0;
+
+}
+.img img {
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,171 @@
+  body {
+        font-family: 'Inter';
+        background-color: whitesmoke;
+      }
+
+  .header {
+        /* border-bottom: ; */
+        width: 1280px;
+        height: 2px;
+  }
+
+  .todos {
+      height: 400px;
+  }
+ 
+  .line {
+      height: 2px;
+      background: #151517;
+      opacity: 0.2;
+  }
+
+  .todo-list {
+        background-color: white;
+        margin: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #efefef;
+        box-shadow:
+            0 1px 1px rgba(0,0,0,0.15),
+            0 10px 0 -5px #eee,
+            0 10px 1px -4px rgba(0,0,0,0.15),
+            0 20px 0 -10px #eee,
+            0 20px 1px -9px rgba(0,0,0,0.15);
+        padding: 30px;
+  }
+
+  .todo-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px 20px 0;
+        width: 100%;
+        border-bottom: 1px solid #cecece;
+        font-family: Roboto, sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        color: #333333;
+  }
+
+  input[type=checkbox] {
+        margin-right: 10px;
+        font-size: 30px;
+  }
+  
+  input[type=checkbox]:focus {
+        outline: 0;
+  }
+
+  .button {
+    background-color: black;
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }  
+
+  .button-text {
+    margin: 0px;
+    font-size: 45px;
+    padding-bottom: 5px;
+  }
+
+  .modal {
+    background-color: #e4e6e7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    width: 268px;
+    height: 234px;
+    position: absolute;
+    top: 42px;
+    left: 1015px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: flex-start;
+    align-items: flex-start;
+  }
+
+  .modal-add-new-to-do {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #151517;
+  }
+
+  .modal-textarea {
+    background-color: white;
+    width: 236px;
+    border-radius: 8px;
+    height: 120px;
+  }
+
+  .modal-addbutton {
+    background-color: black;
+    width: 76px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .more{
+    width: 2.5px;
+    height: 10px;
+  }
+
+  .more-button{
+    border: none;
+    background-color: whitesmoke;
+  }
+
+  .more-background-toTrash {
+    height: 48px;
+  }
+
+  .more-background-inTrash {
+    height: 82px;
+  }
+
+  .more-background {
+    position: absolute;
+    width: 240px;
+    left: 56px;
+    top: 478px;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    border: none;
+  }
+
+  .more-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    color: #353535;
+    margin-bottom: 0;
+  }
+
+  .trashLogo{
+    width: 10.89px;
+    height: 14px;
+    margin-top: 2px;
+  }
+  
+  .more-buttons{
+    background: #E4E6E7;
+    border: none;
+  }
